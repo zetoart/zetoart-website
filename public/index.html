@@ -1,110 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>ZETO ART — Paris</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      background: #ffffff;
-      color: #111111;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    header {
-      height: 90px;
-      padding: 0 42px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid #eeeeee;
-    }
-
-    .logo {
-      font-size: 22px;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-    }
-
-    nav {
-      display: flex;
-      gap: 32px;
-      font-size: 13px;
-      letter-spacing: 0.08em;
-    }
-
-    nav a:hover {
-      opacity: 0.5;
-    }
-
-    .hero {
-      height: calc(100vh - 90px);
-      padding: 50px 42px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-    }
-
-    .hero h1 {
-      margin: 0;
-      font-size: clamp(55px, 9vw, 145px);
-      font-weight: 400;
-      line-height: 0.9;
-      letter-spacing: -0.05em;
-    }
-
-    .hero-footer {
-      margin-top: 38px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      font-size: 14px;
-      line-height: 1.6;
-    }
-
-    .location {
-      color: #666666;
-    }
-
-    @media (max-width: 700px) {
-
-      header {
-        height: auto;
-        min-height: 80px;
-        padding: 22px 20px;
-        align-items: flex-start;
-      }
-
-      nav {
-        gap: 15px;
-        font-size: 11px;
-      }
-
-      .hero {
-        min-height: calc(100vh - 80px);
-        height: auto;
-        padding: 40px 20px;
-      }
-
-      .hero-footer {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
@@ -112,39 +13,52 @@
 <header>
 
   <a href="/" class="logo">
-    ZETO ART
+    <img src="/images/logo.png" alt="ZETO ART logo" class="logo-image">
   </a>
 
- <nav>
-  <a href="/artists.html">ARTISTS</a>
-  <a href="/about.html">ABOUT</a>
-  <a href="/contact.html">CONTACT</a>
-</nav>
+  <nav>
+    <a href="/artists.html">ARTISTS</a>
+    <a href="/about.html">ABOUT</a>
+    <a href="/contact.html">CONTACT</a>
+  </nav>
 
 </header>
 
 
-<main class="hero">
+<main>
 
-  <h1>
-    ZETO ART<br>
-    PARIS
-  </h1>
+  <section class="home-hero-image">
+    <img src="/images/home/hero.jpg" alt="ZETO ART gallery space in Paris" class="home-hero-photo">
+  </section>
 
-  <div class="hero-footer">
+  <section class="home-intro">
 
-    <div>
-      Contemporary Art Gallery
+    <div class="home-title-block">
+      <h1 class="home-title">
+        ZETO ART
+      </h1>
+
+      <div class="home-subtitle">
+        Paris
+      </div>
     </div>
 
-    <div class="location">
-      18 rue Chapon<br>
-      75003 Paris
+    <div class="home-info-block">
+      <p class="home-description">
+        Contemporary art gallery based in the Marais, Paris,
+        working with artists from Europe and Asia.
+      </p>
+
+      <p class="home-address">
+        18 rue Chapon<br>
+        75003 Paris
+      </p>
     </div>
 
-  </div>
+  </section>
 
 </main>
 
 </body>
+
 </html>
