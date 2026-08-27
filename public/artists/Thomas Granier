@@ -1,1 +1,178 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Thomas Garnier — ZETO ART</title>
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header>
+
+  <a href="/" class="logo">
+    <img
+      src="/images/home/logo.png"
+      alt="ZETO ART"
+      class="logo-image"
+    >
+  </a>
+
+  <nav>
+    <a href="/artists.html">ARTISTS</a>
+    <a href="/about.html">ABOUT</a>
+    <a href="/contact.html">CONTACT</a>
+  </nav>
+
+</header>
+
+
+<main class="artist-page">
+
+  <section class="artist-header">
+
+    <h1>
+      Thomas<br>
+      Garnier
+    </h1>
+
+  </section>
+
+
+  <section class="artist-hero">
+
+    <img
+      src="/images/thomas-garnier/hero.jpg"
+      alt="Thomas Garnier"
+      class="artist-main-image"
+    >
+
+  </section>
+
+
+  <section class="artist-info">
+
+    <div class="section-label">
+      Biography
+    </div>
+
+    <div class="artist-text">
+
+      <p>
+        Biography to be added.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section class="works-section">
+
+    <div class="section-label">
+      Selected Works
+    </div>
+
+    <div class="works-grid">
+
+
+      <div class="work">
+
+        <img
+          src="/images/thomas-garnier/work-01.jpg"
+          alt="Thomas Garnier"
+          class="work-image"
+        >
+
+        <div class="work-caption">
+          <strong>Artwork title</strong><br>
+          Year<br>
+          Medium<br>
+          Dimensions
+        </div>
+
+      </div>
+
+
+      <div class="work">
+
+        <img
+          src="/images/thomas-garnier/work-02.jpg"
+          alt="Thomas Garnier"
+          class="work-image"
+        >
+
+        <div class="work-caption">
+          <strong>Artwork title</strong><br>
+          Year<br>
+          Medium<br>
+          Dimensions
+        </div>
+
+      </div>
+
+
+      <div class="work">
+
+        <img
+          src="/images/thomas-garnier/work-03.jpg"
+          alt="Thomas Garnier"
+          class="work-image"
+        >
+
+        <div class="work-caption">
+          <strong>Artwork title</strong><br>
+          Year<br>
+          Medium<br>
+          Dimensions
+        </div>
+
+      </div>
+
+
+      <div class="work">
+
+        <img
+          src="/images/thomas-garnier/work-04.jpg"
+          alt="Thomas Garnier"
+          class="work-image"
+        >
+
+        <div class="work-caption">
+          <strong>Artwork title</strong><br>
+          Year<br>
+          Medium<br>
+          Dimensions
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+</main>
+
+
+<footer>
+
+  <div>
+    ZETO ART
+  </div>
+
+  <div>
+    18 rue Chapon · 75003 Paris
+  </div>
+
+</footer>
+
+</body>
+
+</html>
