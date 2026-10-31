@@ -519,3 +519,27 @@ footer {
   }
 
 }
+
+/* DOWNLOAD PREVIEW */
+
+.preview-download {
+  padding: 20px 0 80px;
+}
+
+.preview-button {
+  display: inline-block;
+  padding: 14px 22px;
+  border: 1px solid #111;
+
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+
+  transition: all 0.2s ease;
+}
+
+.preview-button:hover {
+  background: #111;
+  color: #fff;
+}
